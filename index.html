@@ -42,6 +42,10 @@
         document.getElementById('noButton').style.left=`${x}px`;
         document.getElementById('noButton').style.top=`${y}px`;
     }
+
+     // Add touchstart event for mobile devices
+     document.getElementById('noButton').addEventListener('touchstart', moveButton);
+
 </script>
 
 </div> 
